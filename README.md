@@ -29,3 +29,19 @@ Description of the ETL process for data transformation with code or screenshots
 
 ### Fact Table
 Contains the US Adult Income dataset after ETL processing. In this state, it is ready to be populate the fact table in the Data Warehouse
+
+
+### Power BI files
+The Power BI report file (.pbix) along with a PDF export of the report.
+The report contains the following:
+- Outline of the dimensions and measures
+
+- Business queries that our data warehouse can answer
+
+- StarNet diagram to identify the dimensions and concept heirarchies for each dimension
+
+- StarNet footprints to illustrate how the business queries can be answered with my design
+
+- Star Schema for the Data Warehouse design
+
+- Visualisations and analysis to answer the business queries
