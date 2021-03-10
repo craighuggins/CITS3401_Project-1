@@ -16,7 +16,7 @@ These files build and populate the database
 
 
 ### Dimension Tables
-CSV files to populate the dimension tables with data
+CSV files to populate the dimension tables in the Data Warehouse
 
 
 ### ETL Data Transformation
@@ -25,3 +25,7 @@ Supplementary CSV files used for the ETL process. Please see the document **ETL 
 
 ### ETL Process Description.pdf
 Description of the ETL process for data transformation with code or screenshots
+
+
+### Fact Table
+Contains the US Adult Income dataset after ETL processing. In this state, it is ready to be populate the fact table in the Data Warehouse
