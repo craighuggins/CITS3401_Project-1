@@ -1,0 +1,16 @@
+﻿, Preschool,Kindergarten,Low,No
+, 1st-4th,Elementary School,Low,No
+, 5th-6th,Elementary School,Low,No
+, 7th-8th,Elementary School,Low,No
+, 9th,High School,Low-med,No
+, 10th,High School,Low-med,No
+, 11th,High School,Low-med,No
+, 12th,High School,Low-med,No
+, HS-grad,High School,Low-med,Yes
+, Some-college,College,Medium,Yes
+, Assoc-voc,College,Medium,Yes
+, Assoc-acdm,College,Medium,Yes
+, Bachelors,University,High,Yes
+, Masters,University,High,Yes
+, Prof-school,University,High,Yes
+, Doctorate,University,High,Yes
