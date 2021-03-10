@@ -1,0 +1,249 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c8c17443-9c1d-4a5b-9a13-24cd99f7008c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Education</ID>
+  <Name>Education</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-72" scrolltop="-3525" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="5781" y="10001" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="0100000090019e330100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimEducation" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5146" height="2500" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00001a140000c4090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimEducation" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-72</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3525</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="300">
+            <Shape Id="Education ID" Expanded="false">
+              <Attributes>
+                <Attribute Id="Education ID" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Graduated High School Identifier" Expanded="false">
+              <Attributes>
+                <Attribute Id="Graduated High School Identifier" />
+              </Attributes>
+              <Position x="400" y="20" />
+            </Shape>
+            <Shape Id="Education Level" Expanded="false">
+              <Attributes>
+                <Attribute Id="Education Level" />
+              </Attributes>
+              <Position x="400" y="79" />
+            </Shape>
+            <Shape Id="Institution" Expanded="false">
+              <Attributes>
+                <Attribute Id="Institution" />
+              </Attributes>
+              <Position x="400" y="138" />
+            </Shape>
+            <Shape Id="Qualification" Expanded="false">
+              <Attributes>
+                <Attribute Id="Qualification" />
+              </Attributes>
+              <Position x="400" y="197" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d8435cb7-ecdf-4dbb-8953-318421827b51">
+    <DataSourceViewID>US Adult Income DW</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="8e3b076f-2c4a-4f38-8cde-43d15b19192d">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="e9cf4002-3545-4dc8-8a10-6e3d50ab8924">
+      <ID>Education ID</ID>
+      <Name>Education ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="26b0cef9-6612-44d5-8840-afa6210e7a73">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8980189c-e0f4-420d-966f-76c7b7c3f32a">
+            <TableID>dbo_DimEducation</TableID>
+            <ColumnID>Education_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="1cc0c8fe-0093-4c3d-b595-fcc8e3512039">
+          <AttributeID>Qualification</AttributeID>
+          <Name>Qualification</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5907daa5-b4d8-4eec-9b3b-0dec885c0b0d">
+          <AttributeID>Institution</AttributeID>
+          <Name>Institution</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="edfba058-ae55-4c81-8afa-ab3fe7ec0b4b">
+          <AttributeID>Education Level</AttributeID>
+          <Name>Education Level</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="29de56e6-ad1d-4c4e-ab17-2bcf03c30e4f">
+          <AttributeID>Graduated High School Identifier</AttributeID>
+          <Name>Graduated High School Identifier</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b874a81a-d9b5-48e3-874e-5b2357c7565c">
+      <ID>Qualification</ID>
+      <Name>Qualification</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1374f01b-7ca6-4475-8b6e-deba00b9684c">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6ec48fe3-c9ec-4c0f-ba4b-8ba0e227730e">
+            <TableID>dbo_DimEducation</TableID>
+            <ColumnID>Qualification</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ce3fbb2d-0657-4bf3-b96d-ef097e649ba1">
+      <ID>Institution</ID>
+      <Name>Institution</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e1fd439a-1328-4290-aa73-16c870973b05">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f11c9bc6-d743-451a-abf3-a8226676c479">
+            <TableID>dbo_DimEducation</TableID>
+            <ColumnID>Institution</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ad423743-f02a-4722-8611-d073f2af1d6e">
+      <ID>Education Level</ID>
+      <Name>Education Level</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1d81a968-921f-4edc-a1db-a2c345e82df2">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2813aec4-c9b9-4831-b1be-17940536de7c">
+            <TableID>dbo_DimEducation</TableID>
+            <ColumnID>Education_Level</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="da8b4023-28e8-44da-acca-fb4c67f470b1">
+      <ID>Graduated High School Identifier</ID>
+      <Name>Graduated High School Identifier</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8affd44b-72cd-4702-828f-7b3783c8646d">
+          <DataType>WChar</DataType>
+          <DataSize>3</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a90a0bb9-83af-408a-b7cd-d76ddb6ac049">
+            <TableID>dbo_DimEducation</TableID>
+            <ColumnID>Graduated_HighSchool_Identifier</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="7934cc53-309d-4949-a433-bcdf693f7439">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="a172fc59-30a3-4bb0-b6a5-adc98e4199ae">
+          <ID>Graduated High School Identifier</ID>
+          <Name>Graduated High School Identifier</Name>
+          <SourceAttributeID>Graduated High School Identifier</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="043eb5d5-a826-4759-bf86-cb0089414897">
+          <ID>Education Level</ID>
+          <Name>Education Level</Name>
+          <SourceAttributeID>Education Level</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="983aa794-434d-4cb9-bc65-d106f6f63efc">
+          <ID>Institution</ID>
+          <Name>Institution</Name>
+          <SourceAttributeID>Institution</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ebbf1c04-3594-4b36-a150-ea398dc1bab6">
+          <ID>Qualification</ID>
+          <Name>Qualification</Name>
+          <SourceAttributeID>Qualification</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

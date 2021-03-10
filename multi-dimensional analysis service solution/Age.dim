@@ -1,0 +1,248 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="74a1b267-5158-494e-b1ff-e985912e3205" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Age</ID>
+  <Name>Age</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-747" scrolltop="-3750" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="5781" y="10001" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="0100000090019e330100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimAge" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4247" height="2500" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000097100000c4090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimAge" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-747</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3750</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="300">
+            <Shape Id="Age ID" Expanded="false">
+              <Attributes>
+                <Attribute Id="Age ID" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Retirement Age Identifier" Expanded="false">
+              <Attributes>
+                <Attribute Id="Retirement Age Identifier" />
+              </Attributes>
+              <Position x="400" y="20" />
+            </Shape>
+            <Shape Id="Age Category" Expanded="false">
+              <Attributes>
+                <Attribute Id="Age Category" />
+              </Attributes>
+              <Position x="400" y="79" />
+            </Shape>
+            <Shape Id="Age Bracket" Expanded="false">
+              <Attributes>
+                <Attribute Id="Age Bracket" />
+              </Attributes>
+              <Position x="400" y="138" />
+            </Shape>
+            <Shape Id="Age Years" Expanded="false">
+              <Attributes>
+                <Attribute Id="Age Years" />
+              </Attributes>
+              <Position x="400" y="197" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1d3b7c07-ffb8-4bb5-9056-ce3b314745e9">
+    <DataSourceViewID>US Adult Income DW</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="d79508d5-b7c8-4269-beca-d6b0c591331c">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="38245bb9-416b-4f81-b5f7-17ffd24278fb">
+      <ID>Age ID</ID>
+      <Name>Age ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bff56e77-e59c-49c4-a001-fee9ee7a1906">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5b6ff58a-9338-49ab-a84f-71a6d681b54e">
+            <TableID>dbo_DimAge</TableID>
+            <ColumnID>Age_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="3e753ace-25c0-4fcf-90c1-759aa07af51b">
+          <AttributeID>Age Years</AttributeID>
+          <Name>Age Years</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6febd744-7278-47b0-b0d7-fe631aab4de6">
+          <AttributeID>Age Bracket</AttributeID>
+          <Name>Age Bracket</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a449b2ef-c229-4bd5-a9fe-de7ca2a3ff3d">
+          <AttributeID>Age Category</AttributeID>
+          <Name>Age Category</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="aaacdd00-f9e4-44c4-ba6b-25124e41da3e">
+          <AttributeID>Retirement Age Identifier</AttributeID>
+          <Name>Retirement Age Identifier</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d859f95b-9d11-4564-ba69-638a40d32a2a">
+      <ID>Age Years</ID>
+      <Name>Age Years</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="36b01b05-e31a-4b04-ac91-c87fbc00e8c4">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="68a72a1b-b932-4d2c-93d4-e559eb9531f4">
+            <TableID>dbo_DimAge</TableID>
+            <ColumnID>Age_Years</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e8a4577b-2b93-4c6e-abd9-0807111285af">
+      <ID>Age Bracket</ID>
+      <Name>Age Bracket</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e5fdd3f1-b870-46f1-b38a-8b5c752f9762">
+          <DataType>WChar</DataType>
+          <DataSize>8</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a224ef68-5e5c-4657-bcf3-018725745cee">
+            <TableID>dbo_DimAge</TableID>
+            <ColumnID>Age_Bracket</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c66ef9e9-b619-4e12-a227-406030c8c3e5">
+      <ID>Age Category</ID>
+      <Name>Age Category</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="71993d21-3b6e-4d6e-989e-ce0eb5db1a35">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2f06acf5-0904-4265-b45f-57c76ec3f058">
+            <TableID>dbo_DimAge</TableID>
+            <ColumnID>Age_Category</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a5cfd14c-4915-4427-8843-5407776227d5">
+      <ID>Retirement Age Identifier</ID>
+      <Name>Retirement Age Identifier</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b9024be5-faff-481d-87a3-6e82fb657e76">
+          <DataType>WChar</DataType>
+          <DataSize>3</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9c0c1003-0d1e-48a4-85b4-e3fee3f2cd7d">
+            <TableID>dbo_DimAge</TableID>
+            <ColumnID>Retirement_Age_Identifier</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="e422390d-20aa-4139-ace0-47d7a69d351e">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="c45cca5a-6b9d-4d75-9eb2-ef882cac733b">
+          <ID>Retirement Age Identifier</ID>
+          <Name>Retirement Age Identifier</Name>
+          <SourceAttributeID>Retirement Age Identifier</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="5b69157f-b606-4720-924e-49fcd34fe354">
+          <ID>Age Category</ID>
+          <Name>Age Category</Name>
+          <SourceAttributeID>Age Category</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="90872f87-d562-48dd-9acd-8ab565c05be4">
+          <ID>Age Bracket</ID>
+          <Name>Age Bracket</Name>
+          <SourceAttributeID>Age Bracket</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ab60df09-07b2-44e1-be57-b96a3ab5945d">
+          <ID>Age Years</ID>
+          <Name>Age Years</Name>
+          <SourceAttributeID>Age Years</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

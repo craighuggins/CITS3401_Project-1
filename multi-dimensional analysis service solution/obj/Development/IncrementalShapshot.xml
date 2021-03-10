@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>US_AdultIncome_MultidimensionalProject</Database>
+    <Server>CRAIGHUGGIN7C18</Server>
+    <ConnectionString>Data Source=CRAIGHUGGIN7C18;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>dehFfE1oRR7UdHDOlo2WeY6OLLE=21/04/20 11:02:28 am21/04/20 11:02:28 am</TimeStamp>
+        <ID>
+          <String>US Adult Income DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>vokG87OQ/RMlQJ1iBTwShTQ5rUw=21/04/20 11:04:04 am21/04/20 11:04:03 am</TimeStamp>
+        <ID>
+          <String>US Adult Income DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>z0JzvwmOaVLo6H1igTCH/pLMFjM=22/04/20 11:08:57 am21/04/20 8:14:05 pm</TimeStamp>
+        <ID>
+          <String>Age</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pCNe4eQONbiwyZ6Pg3WqgOpKKPs=22/04/20 11:39:30 am21/04/20 8:14:05 pm</TimeStamp>
+        <ID>
+          <String>Education</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>RlvKhJufgXqbqFkC4fC4ZXZir4w=22/04/20 11:40:57 am21/04/20 8:14:05 pm</TimeStamp>
+        <ID>
+          <String>Native Country</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QitcfIQgRivZR4pNj8HaYx99Jtk=22/04/20 11:41:51 am21/04/20 8:14:05 pm</TimeStamp>
+        <ID>
+          <String>Occupation</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Nq6s+XMUXZSS+jsY9tDSf53cqPI=22/04/20 11:42:43 am21/04/20 8:14:05 pm</TimeStamp>
+        <ID>
+          <String>Gender</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>mvYrm/Y4P3UX/VwpOkEdpXeV4+U=22/04/20 11:45:42 am21/04/20 8:14:05 pm</TimeStamp>
+        <ID>
+          <String>Marital Status</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>A1cEiwLdiMH/c4F18oJzdJMLuRE=22/04/20 11:46:40 am21/04/20 8:14:05 pm</TimeStamp>
+        <ID>
+          <String>Race</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>kDzcrkN+WKeW5338EJdnrKHJ1oE=21/04/20 8:38:02 pm21/04/20 8:14:05 pm</TimeStamp>
+        <ID>
+          <String>Income</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>cpKduczTXjNFDiTGW3Wu3z6E1j4=21/04/20 8:37:17 pm21/04/20 8:14:04 pmLY5AzW5K9wBI22XFr/XO68w3bc4=21/04/20 8:14:05 pm21/04/20 8:14:04 pm</TimeStamp>
+        <ID>
+          <String>US Adult Income DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>iV4M6X2IXss7kAsD/BBEkjrKjss=21/04/20 10:58:46 am21/04/20 10:58:46 am</TimeStamp>
+      <ID>
+        <String>US_AdultIncome_MultidimensionalProject</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-04-22T03:47:21.546667Z</LastDeployed>
+</DeploymentSnapshot>
