@@ -13,3 +13,11 @@ Available from: https://www.kaggle.com/johnolafenwa/us-census-data
 ## Files
 ### SQL Script files
 These files build and populate the database
+
+
+### Dimension Tables
+CSV files to populate the dimension tables with data
+
+
+### ETL Data Transformation
+Supplementary CSV files used for the ETL process. Please see the document **ETL Process Description.pdf** for more details
