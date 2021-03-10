@@ -45,3 +45,7 @@ The report contains the following:
 - Star Schema for the Data Warehouse design
 
 - Visualisations and analysis to answer the business queries
+
+
+### multi-dimensional analysis service solution
+The solution project file (and its folder) of the SQL Server Data Tools analysis service multi-dimensional project, with cube designed to answer the business queries
