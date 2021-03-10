@@ -21,3 +21,7 @@ CSV files to populate the dimension tables with data
 
 ### ETL Data Transformation
 Supplementary CSV files used for the ETL process. Please see the document **ETL Process Description.pdf** for more details
+
+
+### ETL Process Description.pdf
+Description of the ETL process for data transformation with code or screenshots
